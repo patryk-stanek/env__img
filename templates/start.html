@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+    </head>
+    <body class="start">
+        <h1>Wgraj plik</h1>
+        <div class="form">
+            <form action='/upload' enctype='multipart/form-data' method='post'>
+                <label>Tytuł pliku</label>
+                <input type='text' name='title'>
+                <br>
+                <label>Plik</label>
+                <input type='file' name='upload' multiple='multiple'><br>
+                <input type='submit' value='Wyślij'>
+            </form>
+        </div>
+    </body>
+</html>

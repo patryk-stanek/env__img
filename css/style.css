@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, orangered, blueviolet);
+    color: white;
+}
+
+.start {
+    
+}
+
+.upload {
+
+}
+
+h1 {
+
+}
+
+.form {
+
+}
