@@ -1,7 +1,13 @@
 *,
 *::before,
 *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+*:focus {
+    outline: none;
 }
 
 html {
@@ -11,6 +17,12 @@ html {
 body {
     background-image: linear-gradient(to bottom right, orangered, blueviolet);
     color: white;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .start {
@@ -22,9 +34,37 @@ body {
 }
 
 h1 {
-
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 50px;
 }
 
 .form {
 
+}
+
+img {
+    padding: 5px;
+    border: 1px solid white;
+}
+
+label {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+input[type=submit],
+input[type=file],
+input[type=text] {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
 }

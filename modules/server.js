@@ -11,6 +11,7 @@ function start() {
         switch (request.url) {
             case '/css/style.css':
                 handlers.style(response);
+                break;
             case '/': //case ten i poniższy wywołuje te same zdarzenia
             case '/start':
                 handlers.welcome(request, response);
